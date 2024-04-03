@@ -36,14 +36,12 @@ public class CourseJpaRepository {
     public List<Course> findByAuthor(String author) {
         Query query = entityManager.createQuery("select C from Course C where C.author =: author");
         query.setParameter("author", author);
-        List<Course> courses = query.getResultList();
-        return courses;
+        return query.getResultList();
     }
 
     public List<Course> findByName(String name) {
         Query query = entityManager.createQuery("select C from Course C where C.name =: name");
         query.setParameter("name", name);
-        List<Course> courses = query.getResultList();
-        return courses;
+        return query.getResultList();
     }
 }
