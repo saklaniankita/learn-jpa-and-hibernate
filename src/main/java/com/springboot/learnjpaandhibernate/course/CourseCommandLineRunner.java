@@ -1,12 +1,19 @@
 package com.springboot.learnjpaandhibernate.course;
 
 import com.springboot.learnjpaandhibernate.course.springjdbc.CourseJdbcRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+
+
 @Component
 public class CourseCommandLineRunner implements CommandLineRunner {
+
+    private final Logger logger = LoggerFactory.getLogger(getClass());
+
     @Autowired
     private CourseJdbcRepository repository;
 
@@ -29,11 +36,12 @@ public class CourseCommandLineRunner implements CommandLineRunner {
 //        repository.save(new Course(5, "Learn Docker now!", "ankita"));
 //        repository.save(new Course(6, "Learn Junit now!", "saklani"));
 
-        System.out.println(repository.findById(1L));
-        System.out.println(repository.findById(2L));
+
+        logger.info(repository.findById(1L).toString());
+        logger.info(repository.findById(2L).toString());
         repository.deleteById(2L);
 
-        System.out.println(repository.findByAuthor("ankita"));
-        System.out.println(repository.findByName("Learn Spring now!"));
+        logger.info(repository.findByAuthor("ankita").toString());
+        logger.info(repository.findByName("Learn Spring now!").toString());
     }
 }
