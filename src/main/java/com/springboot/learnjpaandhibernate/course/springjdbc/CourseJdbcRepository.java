@@ -1,6 +1,6 @@
-package com.in28minutes.springboot.learnjpaandhibernate.course.springjdbc;
+package com.springboot.learnjpaandhibernate.course.springjdbc;
 
-import com.in28minutes.springboot.learnjpaandhibernate.course.Course;
+import com.springboot.learnjpaandhibernate.course.Course;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;

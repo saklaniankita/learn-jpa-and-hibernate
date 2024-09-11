@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.learnjpaandhibernate;
+package com.springboot.learnjpaandhibernate;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
