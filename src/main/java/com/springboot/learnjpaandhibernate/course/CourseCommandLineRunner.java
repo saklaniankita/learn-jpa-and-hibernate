@@ -1,6 +1,8 @@
 package com.springboot.learnjpaandhibernate.course;
 
-import com.springboot.learnjpaandhibernate.course.springjdbc.CourseJdbcRepository;
+import com.springboot.learnjpaandhibernate.course.jpa.CourseJpaRepository;
+import com.springboot.learnjpaandhibernate.course.springdatajpa.CourseSpringDataJpaRepository;
+import com.springboot.learnjpaandhibernate.course.springjdbc.CourseSpringJdbcRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +17,7 @@ public class CourseCommandLineRunner implements CommandLineRunner {
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
     @Autowired
-    private CourseJdbcRepository repository;
+    private CourseSpringJdbcRepository repository;
 
 //    @Autowired
 //    private CourseJpaRepository repository;

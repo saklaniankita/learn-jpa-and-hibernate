@@ -12,7 +12,7 @@ import java.util.List;
  * illustrates SpringJDBC
  */
 @Repository
-public class CourseJdbcRepository {
+public class CourseSpringJdbcRepository {
     @Autowired
     private JdbcTemplate springJdbcTemplate;
     private static String INSERT_QUERY = """
