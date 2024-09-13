@@ -8,11 +8,11 @@
 		<version>3.1.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.in28minutes.springboot</groupId>
-	<artifactId>learn-jpa-and-hibernate</artifactId>
+	<groupId>com.springboot.learnspringdatajpa</groupId>
+	<artifactId>learn-spring-data-jpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>learn-jpa-and-hibernate</name>
-	<description>Demo project for Spring Boot</description>
+	<name>learn spring data jpa</name>
+	<description>Demo project for Spring Boot Data JPA</description>
 	<properties>
 		<java.version>21</java.version>
 	</properties>

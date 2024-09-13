@@ -1,8 +1,6 @@
-package com.springboot.learnjpaandhibernate.course;
+package com.springboot.learnspringdatajpa.course;
 
-import com.springboot.learnjpaandhibernate.course.jpa.CourseJpaRepository;
-import com.springboot.learnjpaandhibernate.course.springdatajpa.CourseSpringDataJpaRepository;
-import com.springboot.learnjpaandhibernate.course.springjdbc.CourseSpringJdbcRepository;
+import com.springboot.learnspringdatajpa.course.springdatajpa.CourseSpringDataJpaRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

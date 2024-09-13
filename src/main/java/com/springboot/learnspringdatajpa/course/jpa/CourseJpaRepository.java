@@ -1,10 +1,10 @@
-package com.springboot.learnjpaandhibernate.course.jpa;
+package com.springboot.learnspringdatajpa.course.jpa;
 
 /**
  * Types of JPA Queries
  */
 
-import com.springboot.learnjpaandhibernate.course.Course;
+import com.springboot.learnspringdatajpa.course.Course;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.Query;

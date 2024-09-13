@@ -1,4 +1,4 @@
-package com.springboot.learnjpaandhibernate.course;
+package com.springboot.learnspringdatajpa.course;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

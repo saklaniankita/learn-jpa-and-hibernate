@@ -1,6 +1,6 @@
-package com.springboot.learnjpaandhibernate.course.springdatajpa;
+package com.springboot.learnspringdatajpa.course.springdatajpa;
 
-import com.springboot.learnjpaandhibernate.course.Course;
+import com.springboot.learnspringdatajpa.course.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
